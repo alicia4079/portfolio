@@ -107,6 +107,10 @@ header > div > img {
   gap: 20px;
 }
 
+.skills-container h2 {
+  color: gold;
+}
+
 .div-container {
   display: flex;
   flex-direction: row;
@@ -114,11 +118,20 @@ header > div > img {
   align-items: center;
   justify-content: center;
 }
+
+.skills-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .skills-container ul li {
   width: 200px;
   padding: 20px;
   background-color: rgb(0, 206, 137);
+  color: black;
   list-style: none;
+  gap: 20px;
 }
 
 .projects-container p {
