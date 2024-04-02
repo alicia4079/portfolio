@@ -18,6 +18,10 @@ a {
   color: whitesmoke;
 }
 
+h1 {
+  padding-top: 10px;
+}
+
 .about-container h2 {
   color: gold;
 }
@@ -25,6 +29,10 @@ a {
   color: rgb(5, 5, 129);
   font-weight: 900;
   font-size: 20px;
+}
+
+.about-container p {
+  font-size: 18px;
 }
 
 section {
@@ -47,16 +55,17 @@ header,
 }
 
 .title > h2 {
-  margin-left: 46%;
   color: gold;
+  text-align: center;
 }
 
 header > div {
-  width: 100px;
+  width: 200px;
 }
 
 header > div > img {
   width: 100%;
+  border-radius: 20px;
 }
 .about-container > p {
   text-align: center;
@@ -138,6 +147,7 @@ header > div > img {
   text-align: justify;
 }
 footer {
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
