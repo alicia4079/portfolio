@@ -59,7 +59,7 @@ header img {
 .about-container a {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #007bff;
+  background-color: #2c3e50;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -67,7 +67,7 @@ header img {
 }
 
 .about-container a:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .title {
@@ -141,7 +141,7 @@ header img {
 
 .filter-btn {
   padding: 0.8rem 1.5rem;
-  background-color: #007bff;
+  background-color: #2c3e50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -151,7 +151,7 @@ header img {
 }
 
 .filter-btn:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .filter-btn:focus {
@@ -189,7 +189,7 @@ header img {
   display: inline-block;
   margin-top: 10px;
   padding: 0.5rem 1rem;
-  background-color: #007bff;
+  background-color: #2c3e50;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -222,7 +222,7 @@ header img {
   display: inline-block;
   margin: 1rem auto;
   padding: 0.5rem 1rem;
-  background-color: #007bff;
+  background-color: #2c3e50;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -231,7 +231,7 @@ header img {
 }
 
 .project-item a:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .skills-container {
@@ -321,7 +321,7 @@ ul li p strong {
 }
 
 .modal-content a:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .close {
