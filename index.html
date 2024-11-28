@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Portfolio</title>
+    <title>Portfolio Alicia Gálvez👩🏻‍💻🚀</title>
   </head>
   <body>
     <header>
@@ -19,27 +19,41 @@
       <section class="about-container">
         <h2>About me</h2>
         <p>
-          I am an internationalist changing profession. Currently, I am
-          dedicated to customer service, music and web development.
+          Full stack developer dedicated to creating efficient, user-friendly,
+          and visually appealing web applications. With a strong focus on
+          front-end development, I enjoy transforming ideas into functional,
+          responsive designs that provide seamless user experiences. I am
+          committed to continuous learning, staying up-to-date with the latest
+          technologies and best practices in web development to deliver
+          innovative and scalable solutions. My goal is to combine technical
+          expertise and creativity to build impactful digital experiences.
         </p>
-        <a href="mailto:alicia4079@gmail.com"
-          >Contact <span role="img"></span
-        ></a>
+        <a href="mailto:alicia4079@gmail.com">Contact</a>
       </section>
+
       <div class="title">
         <h2>My projects</h2>
       </div>
+
+      <section class="filters-container">
+        <button class="filter-btn" data-filter="html">HTML & CSS</button>
+        <button class="filter-btn" data-filter="javascript">JavaScript</button>
+        <button class="filter-btn" data-filter="react">React</button>
+        <button class="filter-btn" data-filter="angular">Angular</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="teamwork">Team Projects</button>
+        <button class="filter-btn" data-filter="all">All</button>
+      </section>
+
       <section class="projects-container">
         <ul>
-          <li>
+          <li class="project-item" data-category="html">
             <h3>Phonehouse</h3>
             <div>
-              <div>
-                <img src="./assets/phonehouse.png" alt="Phonehouse" />
-              </div>
+              <img src="./assets/phonehouse.png" alt="Phonehouse" />
               <p>
-                It was my first project,the page made only with HTML and CSS. It
-                has the same design as the original and the nav is made just
+                It was my first project, the page made only with HTML and CSS.
+                It has the same design as the original and the nav is made just
                 HTML and CSS without JavaScript. It is a fully responsive page
                 that changes for tablet or mobile. All links take you to
                 different pages related to the phonehouse page.
@@ -51,14 +65,10 @@
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="html">
             <h3>Hotel page</h3>
             <div>
-              <div>
-                <img src="./assets/hotel.png" alt="Hotel" />
-              </div>
+              <img src="./assets/hotel.png" alt="Hotel" />
               <p>
                 In this responsive page, I work with HTML and CSS too,
                 introducing forms and photo design. It showcases a unique and
@@ -70,14 +80,10 @@
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="html">
             <h3>Spotahome</h3>
             <div>
-              <div>
-                <img src="./assets/spotahome.png" alt="Spotahome" />
-              </div>
+              <img src="./assets/spotahome.png" alt="Spotahome" />
               <p>
                 In this housing rental page, three distinct sections are
                 highlighted: header, main, and footer, which appear differently
@@ -92,124 +98,75 @@
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="javascript">
             <h3>Shein</h3>
             <div>
-              <div>
-                <img src="./assets/Shein.png" alt="shein" />
-              </div>
+              <img src="./assets/Shein.png" alt="shein" />
               <p>
                 This fashion page employs JavaScript and features three filters:
                 sellers, style, and price. This enables users to save time in
-                their clothing search. While the page design draws inspiration
-                from the renowned brand Shein, it incorporates unique elements
-                in terms of clothing, filters, and the footer
+                their clothing search.
               </p>
               <a href="https://sheinwithfilters.netlify.app/" target="_blank"
                 >See more</a
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="javascript">
             <h3>Pinterest</h3>
             <div>
-              <div>
-                <img src="./assets/pinterest.png" alt="Pinterest" />
-              </div>
+              <img src="./assets/pinterest.png" alt="Pinterest" />
               <p>
                 This page, inspired by the well-known platform 'Pinterest,'
-                requests photos from an API based on a specific theme that can
-                be searched through the top search bar. The layout is
-                reminiscent of this platform, yet the rest of the design is
-                original.
+                requests photos from an API based on a specific theme. The
+                layout is reminiscent of Pinterest, with an original design for
+                the rest.
               </p>
               <a href="https://asyncwebvitepint.netlify.app/" target="_blank"
                 >See more</a
               >
             </div>
           </li>
-        </ul>
-        <!--         <ul>
-          <li>
-            <h3>CV web</h3>
-            <div>
-              <div>
-                <img src="./assets/cv.png" alt="cv" />
-              </div>
-              <p>
-                This is my web CV created using HTML, CSS, JavaScript, and VITE.
-                It includes the typical sections found in a CV: education,
-                experience, and projects. Additionally, there is a small search
-                bar for various mastered technologies. I have included links to
-                my Netlify and Vercel pages, as well as a button that directly
-                connects to my email for contacting me.
-              </p>
-              <a href="https://cvaliciagalvezvite.netlify.app/ " target="_blank"
-                >See moore</a
-              >
-            </div>
-          </li>
-        </ul> -->
-        <ul>
-          <li>
+          <li class="project-item" data-category="javascript">
             <h3>World Games Hub</h3>
             <div>
-              <div>
-                <img src="./assets/worldgameshub.png" alt="world Games Hub" />
-              </div>
+              <img src="./assets/worldgameshub.png" alt="World Games Hub" />
               <p>
                 This project features three popular games: Rock, Paper,
                 Scissors, Memory, and Hangman. It has a main page that leads you
-                to each of them. In the first game, you face off against the
-                computer in a best-of-10 match, and the score is stored in the
-                local storage. For Memory, I use a grid to create a table of
-                animals, and it keeps track of the best score. Finally, Hangman
-                contains a secret word, and as you miss letters, the hangman
-                image changes
+                to each of them. For Memory, I use a grid to create a table of
+                animals, and it keeps track of the best score.
               </p>
               <a href="https://worldgameshub.netlify.app/" target="_blank"
                 >See more</a
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="fullstack">
             <h3>Best Events</h3>
             <div>
-              <div>
-                <img src="./assets/Events.png" alt="Best Events" />
-              </div>
+              <img src="./assets/Events.png" alt="Best Events" />
               <p>
                 Project carried out by creating a server connected to a database
-                and Cloudinary, along with a front end that allows visualization
-                of various events and attendees, as well as their management.
-                Additionally, it includes a procedure for logging in on the
-                backend, thus having different registered users.
+                and Cloudinary. The front end allows for event and attendee
+                management.
               </p>
-              <a href="https://disfruta-de-los-mejores-eventos.vercel.app/"
+              <a
+                href="https://disfruta-de-los-mejores-eventos.vercel.app/"
+                target="_blank"
                 >See more</a
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="react">
             <h3>World Flavors</h3>
             <div>
-              <div>
-                <img src="./assets/worldFlavors.png" alt="World Flavors" />
-              </div>
+              <img src="./assets/worldFlavors.png" alt="World Flavors" />
               <p>
                 This page is built with Vite and React that allows you to
                 explore a diverse selection of recipes from around the world.
                 The application is connected to an API that provides detailed
-                information about each recipe, including ingredients and
-                preparation steps.
+                information about each recipe.
               </p>
               <a
                 href="https://world-flavors-alicia-galvez-eoppmg5hg-alicia4079s-projects.vercel.app/"
@@ -218,107 +175,145 @@
               >
             </div>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="project-item" data-category="react">
             <h3>Virtual Games Room</h3>
             <div>
-              <div>
-                <img
-                  src="./assets/VirtualGamesRoom.png"
-                  alt="Virtual Games Room"
-                />
-              </div>
+              <img
+                src="./assets/VirtualGamesRoom.png"
+                alt="Virtual Games Room"
+              />
               <p>
                 This advanced React project includes the development of two
                 classic games: Tic Tac Toe and Battleship. It features
-                interactive gameplay, AI opponents, state persistence, and
-                responsive design.
+                interactive gameplay and AI opponents.
               </p>
               <a
                 href="https://virtual-games-room-4vvl5v092-alicia4079s-projects.vercel.app/"
+                target="_blank"
+                >See more</a
+              >
+            </div>
+          </li>
+          <li class="project-item" data-category="angular">
+            <h3>Animal adoption</h3>
+            <div>
+              <img src="./assets/animalAdoption.png" alt="Animal adoption" />
+              <p>
+                An Angular-based web application for adopting animals. The
+                platform features a catalog of pets available for adoption,
+                detailed profiles for each animal, and a user-friendly adoption
+                form to streamline the process.
+              </p>
+              <a
+                href="https://animal-adoption-angular.vercel.app/"
+                target="_blank"
+                >See more</a
+              >
+            </div>
+          </li>
+          <li class="project-item" data-category="fullstack">
+            <h3>Spa Relaxing</h3>
+            <div>
+              <img src="./assets/relaxing_spa.png" alt="Relaxing spa" />
+              <p>
+                This is a React frontend for a multi-spa management system, with
+                a Node.js backend. The application allows customers and admins
+                to manage customer data and spa locations.
+              </p>
+              <a href="https://spa-relaxing.vercel.app/" target="_blank"
+                >See more</a
+              >
+            </div>
+          </li>
+          <li class="project-item" data-category="teamwork">
+            <h3>CRM Impact Social Cup</h3>
+            <div>
+              <img src="./assets/ISC.jpg" alt="CRM Impact Social Cup" />
+              <p>
+                I worked with a team to develop a CRM for the Social Impact Cup
+                hackathon, focusing on front-end development using React and
+                Redux.
+              </p>
+              <a href="https://impact-social-cup.netlify.app/" target="_blank"
                 >See more</a
               >
             </div>
           </li>
         </ul>
-        <ul>
-          <li>
-            <h3>Spa Relaxing</h3>
-            <div>
-              <div>
-                <img src="./assets/relaxing_spa.png" alt="Relaxing spa" />
-              </div>
-              <p>
-                This is a React frontend for a multi-spa management system, with
-                a Node.js backend. The application allows customers and admins
-                to manage customer data and spa locations. Key features include
-                user authentication with JWT, dynamic customer and spa
-                management with CRUD operations, custom hooks for state
-                management (useCustomers, useSpas), and responsive forms with
-                real-time validation.
-              </p>
-              <a href="https://spa-relaxing.vercel.app/">See more</a>
-            </div>
-          </li>
-        </ul>
       </section>
-      <section class="skills-container">
-        <h2>My skills</h2>
-        <div class="div-container">
-          <ul>
-            <li>
-              <p>HTML <strong>90%</strong></p>
-            </li>
-            <li>
-              <p>CSS <strong>90%</strong></p>
-            </li>
-            <li>
-              <p>JavaScript <strong>80%</strong></p>
-            </li>
-            <li>
-              <p>Node JS <strong>70%</strong></p>
-            </li>
-            <li>
-              <p>React <strong>60%</strong></p>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <p>Problem Solving <strong>90%</strong></p>
-            </li>
-            <li>
-              <p>Resilience <strong>90%</strong></p>
-            </li>
-            <li>
-              <p>Adaptability <strong>80%</strong></p>
-            </li>
-            <li>
-              <p>Team Work <strong>85%</strong></p>
-            </li>
-            <li>
-              <p>Learning hability <strong>90%</strong></p>
-            </li>
-          </ul>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Project Details</h3>
+          <div id="modal-content-container"></div>
         </div>
-      </section>
+      </div>
     </main>
+
     <footer>
       <ul>
-        <li>
-          <a href="https://github.com/alicia4079">
-            <span role="img"></span> Github
-          </a>
-        </li>
+        <li><a href="https://github.com/alicia4079">Github</a></li>
       </ul>
       <ul>
         <li>
-          <a href="www.linkedin.com/in/alicia-galvez-rodriguez">
-            <span role="img"></span> Linkedin
-          </a>
+          <a href="www.linkedin.com/in/alicia-galvez-rodriguez">Linkedin</a>
         </li>
       </ul>
-      <p>Created by Alicia Gálvez 2024</p>
     </footer>
+
+    <script>
+      const filterButtons = document.querySelectorAll('.filter-btn')
+      const projects = document.querySelectorAll('.project-item')
+
+      filterButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const category = button.getAttribute('data-filter')
+
+          projects.forEach((project) => {
+            if (
+              category === 'all' ||
+              project.getAttribute('data-category') === category
+            ) {
+              project.style.display = 'block'
+            } else {
+              project.style.display = 'none'
+            }
+          })
+        })
+      })
+
+      const modal = document.getElementById('modal')
+      const closeModal = document.querySelector('.close')
+      const modalContentContainer = document.getElementById(
+        'modal-content-container'
+      )
+
+      projects.forEach((project) => {
+        project.addEventListener('click', () => {
+          const title = project.querySelector('h3').textContent
+          const description = project.querySelector('p').textContent
+          const link = project.querySelector('a').href
+
+          modalContentContainer.innerHTML = `
+      <h4>${title}</h4>
+      <p>${description}</p>
+      <a href="${link}" target="_blank">Go to Project</a>
+    `
+
+          modal.style.display = 'flex'
+        })
+      })
+
+      closeModal.addEventListener('click', () => {
+        modal.style.display = 'none'
+      })
+
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none'
+        }
+      })
+    </script>
   </body>
 </html>
